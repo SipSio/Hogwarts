@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container start">
+		<img src="door.png" class="w-25 dver">
+		<img src="door2.png" class="w-25 ">
+		<img src="door3.png" class="w-25 "> 
+	</div>
+
+	<div class="hp" style="background: url(bg.jpg);height: 800px; display: none">
+	</div>
+<script type="text/javascript">
+	document.querySelector(".dver").onclick = function() {
+		alert ("Welcome to Hogvarts!");
+		document.querySelector(".start").style.display="none";
+
+		document.querySelector(".hp").style.display="block";
+
+	
+
+	}
+
+</script>
+</body>
+</html>
